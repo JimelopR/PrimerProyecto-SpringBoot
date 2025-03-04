@@ -6,11 +6,17 @@ la Base de Datos, tomar las siguientes consideraciones:
 que es el configura la conexion a la Base de Datos, tiene este código:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/nombre_de_tu_base
+
 spring.datasource.username=tu_usuario
+
 spring.datasource.password=tu_contraseña
+
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
 spring.jpa.hibernate.ddl-auto=update
+
 
 2. Debes cambiar tu usuario y contraseña donde se indica
 y el nombre de la base de Datos, yo la nombre "primerProyectoLibreria" 
