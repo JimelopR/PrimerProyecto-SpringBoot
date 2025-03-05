@@ -20,8 +20,9 @@ spring.jpa.hibernate.ddl-auto=update
 
 2. Debes cambiar tu usuario y contraseña donde se indica
 y el nombre de la base de Datos, yo la nombre "primerProyectoLibreria" 
-y así se encuentra en el proyecto
+y así se encuentra en el proyecto, también si tu puerto es distinto al
+que yo estoy usando que es el 3306, también se tiene que cambiar en la url de la bd
 
-3. Yo trabaje con MySQLWorkbench
-4. Tiene que estar todo bien configurado, Maven, El jdk, el ide y las variables de entorno sel sistema
-5. Use maven 3.9.9 y Java version: 23.0.2
+4. Yo trabaje con MySQLWorkbench
+5. Tiene que estar todo bien configurado, Maven, El jdk, el ide y las variables de entorno sel sistema
+6. Use maven 3.9.9 y Java version: 23.0.2
